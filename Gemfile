@@ -7,4 +7,4 @@ gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'ejs'
-gem "mocha"
+gem "mocha", require: false

@@ -1,7 +1,7 @@
 require 'test_helper'
 require 'generators/generators_test_helper'
 require "generators/angular/install/install_generator"
-require 'mocha'
+require 'mocha/api'
 
 class InstallGeneratorTest < Rails::Generators::TestCase
   include GeneratorsTestHelper
